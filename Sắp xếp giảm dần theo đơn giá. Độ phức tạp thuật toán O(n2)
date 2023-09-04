@@ -1,0 +1,7 @@
+ void SapXep(DoVat sp[], int n)
+ {
+    for(int i = 1; i <= n - 1; i++)
+       for(int j = i + 1; j <= n; j++)
+       if (sp[i].DonGia < sp[j].DonGia)
+       swap(sp[i], sp[j]);
+ }
