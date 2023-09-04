@@ -1,0 +1,6 @@
+CodeC
+struct DoVat {
+char Ten [20];
+float TrongLuong, GiaTri, DonGia;
+      int PhuongAn;//so luong do vat chon
+};`
