@@ -4,3 +4,8 @@ char Ten [20];
 float TrongLuong, GiaTri, DonGia;
       int PhuongAn;//so luong do vat chon
 };`
+void TinhDonGia(DoVat sp[], int n)
+{
+   for(int i = 1; i <= n; i++)
+      sp[i].DonGia = sp[i].GiaTri / sp[i].TrongLuong;
+}
